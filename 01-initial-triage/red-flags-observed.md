@@ -11,7 +11,7 @@ Legitimate regulated operators block withdrawals until KYC is complete. This is 
 It says on the website that this is "Special Promocode" and "50M users celebration".
 The deposit happened instantly when I made an account. Also when I made an account it didn't ask me to verify my email or anything.
 
-**Evidence:** [profilepage.png](profilepage.png) , [promotion1.png](promotion1.png)[promotion2.png](promotion2.png)
+**Evidence:** [profilepage.png](profilepage.png) , [promotion1.png](promotion1.png) , [promotion2.png](promotion2.png)
 
 ## Red Flag #3: Crypto is preselected as the default withdraw method, with Bitcoin pre-populated
 
