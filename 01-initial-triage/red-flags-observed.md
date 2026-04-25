@@ -4,7 +4,7 @@ On the Profile page, the account is marked "KYC Verification: Unverified" in red
 
 Legitimate regulated operators block withdrawals until KYC is complete. This is a regulatory requirement under anti-money-laundering rules in virtually every jurisdiction that licenses online gambling. Exposing a working withdraw form to an unverified account is either a regulatory violation or deliberate, the withdraw flow is designed as bait for a downstream trap, not as a real payout function.
 
-  **Evidence:** [profilepage.png](profilepage.png) , [withdrawpage.png](withdrawpage.png) [withdrawpageCARD.png](withdrawpageCARD.png)
+  **Evidence:** [profilepage.png](profilepage.png) , [withdrawpage.png](withdrawpage.png) ,  [withdrawpageCARD.png](withdrawpageCARD.png)
 
 ## Red Flag #2: $3500 balance appeared in the account without any deposit being made
 
