@@ -23,7 +23,7 @@ The bank card is demoted as a secondary option. I think crypto is pre-selected b
 
 By this I mean on the screenshot it says "eligible for a couple of days only", none of the serious and legit casinos will just hand out $3500, especially not for a first time user.
 
-**Evidence:** [promotion1.png](promotion1.png)[promotion2.png](promotion2.png)
+**Evidence:** [promotion1.png](promotion1.png) , [promotion2.png](promotion2.png)
 
 ### Red flags from the HTML source code(found via curl + grep)
 
@@ -43,7 +43,7 @@ In the HTML source I found these two paths, this tells me that this site was use
 
 This tells me that this is made by someone that is professional in dev work, reinforcing that this is a sustained operation not a throwaway kit site. So this is a well tought scheme, nothing new but this is a next level because they masked their trail through TikTok and Discord.
 
-**Evidence:** [soawin-homepage-source.html] , (../02-infrastructure/raw-output/soawin-homepage-source.html), [soawin-js-chunks.txt](../02-infrastructure/raw-output/soawin-js-chunks.txt)
+**Evidence:** [soawin-homepage-source.html](../02-infrastructure/raw-output/soawin-homepage-source.html), [soawin-js-chunks.txt](../02-infrastructure/raw-output/soawin-js-chunks.txt)
 
 ### Red Flags from the Terms of Service page
 
