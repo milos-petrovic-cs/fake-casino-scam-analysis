@@ -51,13 +51,13 @@ This tells me that this is made by someone that is professional in dev work, rei
 
 "holds a valid Certificate of Operation" vs "application for license is in progress under a transitional arrangement"
 
-**Evidence:** [licencesecurity.png](licencesecurity.png), [licencesecurity2.png](licencesecurity2.png), [soawin-terms-of-service.html](../02-infrastructure/raw-output/soawin-terms-of-service.html)
+**Evidence:** [licencesecurity.png](licencesecurity.png), [licencesecurity2.png](licencesecurity2.png)
 
 ## Red Flag #9: Operator disclaims fund custody
 
 "WE ARE SOFTWARE DEVELOPERS AND PROVIDERS OF SOFTWARE SERVICES AND DO NOT CUSTODY, CONTROL OR MANAGE USER FUNDS OR ANY PRIVATE DATA IN ANY MANNER" - while operating as a casino that holds a $3500 balance for you. A legit casino will not have this in their Terms of Service
 
-**Evidence:** [licencesecurity.png](licencesecurity.png), [soawin-terms-of-service.html](../02-infrastructure/raw-output/soawin-terms-of-service.html)
+**Evidence:** [licencesecurity.png](licencesecurity.png)
 
 ### Red Flags from the distribution vector
 
@@ -74,19 +74,19 @@ The group is not an established community with pre-scam history
 This is abuse of a trusted community role, it may be coordinated or compromised
 
 ## Red Flag #13: Operator name in Terms of Service contradicts operator name on Licenses page
+
 The Terms of Service identifies the operator as "Long Island N.V.", Curaçao Company Number 157372. The Licenses & Security page identifies the operator as "TechSolutions Group N.V.", registration number 144920, with payment agent "TechSolutions (CY) Group Limited" (Cyprus, HE 377018).
 A legitimate operator has one legal identity. Two different company names and registration numbers in the same site's own legal disclosures means at least one is fabricated. Both are subject to verification against the Curaçao Chamber of Commerce in Phase 2.
 Evidence: licencesecurity.png, soawin-homepage-source.html
 
-**Evidence**: [licencesecurity.png](licencesecurity.png) , [soawin-homepage-source.html](soawin-homepage-source.html)
+**Evidence**: [licencesecurity.png](licencesecurity.png) , [soawin-homepage-source.html](../02-infrastructure/raw-output/soawin-homepage-source.html)
 
 ## Red Flag #14: Site claims regulatory endorsements that don't exist
-The Licenses page lists "UKGC", "FinCEN", and "GDPR" as Soawin licenses or partnerships. These claims are categorically false:
 
+The Licenses page lists "UKGC", "FinCEN", and "GDPR" as Soawin licenses or partnerships. These claims are categorically false:
 UKGC (UK Gambling Commission) does not license Curaçao-incorporated crypto casinos. UKGC requires UK incorporation and is publicly verifiable in their license register.
 FinCEN is a US bureau that monitors financial crimes. It does not partner with private companies and does not issue gaming credentials.
 GDPR is a European data protection regulation, not a license or certification. A company can comply with GDPR but cannot be "licensed by" it.
-
 Listing these as credentials is regulatory cosplay — designed to look authoritative to a casual reader who recognizes the acronyms but not their function.
 
 **Evidence**: [licencesecurity2.png](licencesecurity2.png) , [licencesecurity3.png](licencesecurity3.png)
