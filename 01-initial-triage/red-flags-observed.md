@@ -1,8 +1,8 @@
-## Red flag #1: Withdraw functionality exposed before KYC verification
+## Red Flag #1: Withdraw functionality exposed before KYC verification
 
 On the Profile page, the account is marked "KYC Verification: Unverified" in red but, the sidebar's Withdraw link is active and leads to a fully functional withdraw form that accepts a wallet address or card number.
 
-Legitimate regulated operators block withdrawals until KYC is complete. This is a regulatory requirement under anti-money-laundering rules in virtually every jurisdiction that licenses online gambling. Exposing a working withdraw form to an unverified account is either a regulatory violation or deliberate, the withdraw flow is designed as bait for a downstream trap, not as a real payout function.
+Legitimate regulated operators block withdrawals until KYC is complete. This is a regulatory requirement under anti-money-laundering rules in virtually every jurisdiction that licenses online gambling. Exposing a working withdraw form to an unverified account is either a regulatory violation or deliberate; the withdraw flow is designed as bait for a downstream trap, not as a real payout function.
 
   **Evidence:** [profilepage.png](profilepage.png) , [withdrawpage.png](withdrawpage.png) ,  [withdrawpageCARD.png](withdrawpageCARD.png)
 
@@ -25,7 +25,9 @@ By this I mean on the screenshot it says "eligible for a couple of days only", n
 
 **Evidence:** [promotion1.png](promotion1.png) , [promotion2.png](promotion2.png)
 
+
 ### Red flags from the HTML source code(found via curl + grep)
+
 
 ## Red Flag #5: Asset paths /trumpColorDSGN/mix/preloader.svg and /muskColorDSGN/mix/preloader.svg 
 
@@ -41,11 +43,13 @@ In the HTML source I found these two paths, this tells me that this site was use
 
 ## Red Flag #7: Next.js production build with app/(auth)/layout-...js chunks and __next_f.push streaming markers 
 
-This tells me that this is made by someone that is professional in dev work, reinforcing that this is a sustained operation not a throwaway kit site. So this is a well tought scheme, nothing new but this is a next level because they masked their trail through TikTok and Discord.
+This tells me that this is made by someone that is professional in dev work, reinforcing that this is a sustained operation not a throwaway kit site. So this is a well thought scheme, nothing new but this is a next level because they masked their trail through TikTok and Discord.
 
 **Evidence:** [soawin-homepage-source.html](../02-infrastructure/raw-output/soawin-homepage-source.html), [soawin-js-chunks.txt](../02-infrastructure/raw-output/soawin-js-chunks.txt)
 
+
 ### Red Flags from the Terms of Service page
+
 
 ## Red Flag #8: Contradictory license claims in adjacent sentences
 
@@ -65,13 +69,19 @@ This tells me that this is made by someone that is professional in dev work, rei
 
 This is a classic scheme that is popular right now. Social media recommendation algorithm -> fake day-trading Discord -> scam landing page
 
+**Evidence:** See [entry-vector.md](entry-vector.md) — distribution channel description
+
 ## Red Flag #11: Discord group itself founded in 2024
 
 The group is not an established community with pre-scam history
 
+**Evidence:** See [entry-vector.md](entry-vector.md) — Discord group founding date
+
 ## Red Flag #12: Admin/co-admin spamming the promo across all channels
 
 This is abuse of a trusted community role, it may be coordinated or compromised
+
+**Evidence:** See [entry-vector.md](entry-vector.md) — admin behavior description
 
 ## Red Flag #13: Operator name in Terms of Service contradicts operator name on Licenses page
 
