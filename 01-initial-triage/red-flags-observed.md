@@ -4,14 +4,14 @@ On the Profile page, the account is marked "KYC Verification: Unverified" in red
 
 Legitimate regulated operators block withdrawals until KYC is complete. This is a regulatory requirement under anti-money-laundering rules in virtually every jurisdiction that licenses online gambling. Exposing a working withdraw form to an unverified account is either a regulatory violation or deliberate, the withdraw flow is designed as bait for a downstream trap, not as a real payout function.
 
-  **Evidence:** [profilepage.png](profilepage.png) [withdrawpage.png](withdrawpage.png) [withdrawpageCARD.png](withdrawpageCARD.png)
+  **Evidence:** [profilepage.png](profilepage.png) , [withdrawpage.png](withdrawpage.png) [withdrawpageCARD.png](withdrawpageCARD.png)
 
 ## Red Flag #2: $3500 balance appeared in the account without any deposit being made
 
 It says on the website that this is "Special Promocode" and "50M users celebration".
 The deposit happened instantly when I made an account. Also when I made an account it didn't ask me to verify my email or anything.
 
-**Evidence:** [profilepage.png](profilepage.png)[promotion1.png](promotion1.png)[promotion2.png](promotion2.png)
+**Evidence:** [profilepage.png](profilepage.png) , [promotion1.png](promotion1.png)[promotion2.png](promotion2.png)
 
 ## Red Flag #3: Crypto is preselected as the default withdraw method, with Bitcoin pre-populated
 
@@ -43,7 +43,7 @@ In the HTML source I found these two paths, this tells me that this site was use
 
 This tells me that this is made by someone that is professional in dev work, reinforcing that this is a sustained operation not a throwaway kit site. So this is a well tought scheme, nothing new but this is a next level because they masked their trail through TikTok and Discord.
 
-**Evidence:** [soawin-homepage-source.html](../02-infrastructure/raw-output/soawin-homepage-source.html), [soawin-js-chunks.txt](../02-infrastructure/raw-output/soawin-js-chunks.txt)
+**Evidence:** [soawin-homepage-source.html] , (../02-infrastructure/raw-output/soawin-homepage-source.html), [soawin-js-chunks.txt](../02-infrastructure/raw-output/soawin-js-chunks.txt)
 
 ### Red Flags from the Terms of Service page
 
@@ -51,13 +51,13 @@ This tells me that this is made by someone that is professional in dev work, rei
 
 "holds a valid Certificate of Operation" vs "application for license is in progress under a transitional arrangement"
 
-**Evidence:** [licencesecurity.png](licencesecurity.png)[licencesecurity2.png](licencesecurity2.png) [soawin-terms-of-service.html](../02-infrastructure/raw-output/soawin-terms-of-service.html)
+**Evidence:** [licencesecurity.png](licencesecurity.png), [licencesecurity2.png](licencesecurity2.png), [soawin-terms-of-service.html](../02-infrastructure/raw-output/soawin-terms-of-service.html)
 
 ## Red Flag #9: Operator disclaims fund custody
 
 "WE ARE SOFTWARE DEVELOPERS AND PROVIDERS OF SOFTWARE SERVICES AND DO NOT CUSTODY, CONTROL OR MANAGE USER FUNDS OR ANY PRIVATE DATA IN ANY MANNER" - while operating as a casino that holds a $3500 balance for you. A legit casino will not have this in their Terms of Service
 
-**Evidence:** [licencesecurity.png](licencesecurity.png) [soawin-terms-of-service.html](../02-infrastructure/raw-output/soawin-terms-of-service.html)
+**Evidence:** [licencesecurity.png](licencesecurity.png), [soawin-terms-of-service.html](../02-infrastructure/raw-output/soawin-terms-of-service.html)
 
 ### Red Flags from the distribution vector
 
@@ -78,7 +78,7 @@ The Terms of Service identifies the operator as "Long Island N.V.", Curaçao Com
 A legitimate operator has one legal identity. Two different company names and registration numbers in the same site's own legal disclosures means at least one is fabricated. Both are subject to verification against the Curaçao Chamber of Commerce in Phase 2.
 Evidence: licencesecurity.png, soawin-homepage-source.html
 
-**Evidence**: [licencesecurity.png](licencesecurity.png)[soawin-homepage-source.html](soawin-homepage-source.html)
+**Evidence**: [licencesecurity.png](licencesecurity.png) , [soawin-homepage-source.html](soawin-homepage-source.html)
 
 ## Red Flag #14: Site claims regulatory endorsements that don't exist
 The Licenses page lists "UKGC", "FinCEN", and "GDPR" as Soawin licenses or partnerships. These claims are categorically false:
@@ -89,4 +89,4 @@ GDPR is a European data protection regulation, not a license or certification. A
 
 Listing these as credentials is regulatory cosplay — designed to look authoritative to a casual reader who recognizes the acronyms but not their function.
 
-**Evidence**: [licencesecurity2.png](licencesecurity2.png)[licencesecurity3.png](licencesecurity3.png)
+**Evidence**: [licencesecurity2.png](licencesecurity2.png) , [licencesecurity3.png](licencesecurity3.png)
