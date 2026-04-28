@@ -93,7 +93,7 @@ In addition to claiming to be registered in Curacao; both companies claim to ope
 
 ## Red Flag #14: Site claims regulatory endorsements that don't exist
 
-Curaçao-based Crypto Casinos have been falsely stating they were licensed under “UKGC”, “FinCEN” and “GDPR”. There is no factual basis for such statements. 
+Soawin falsely claims to be licensed under “UKGC”, “FinCEN” and “GDPR”. There is no factual basis for such statements. 
 The UKGC (the U.K. gambling commission), will not license a casino unless it was registered in the United Kingdom. Their license directory is public.
 The FinCEN (Financial Crimes Enforcement Network) of the U.S. Department of Treasury investigates money laundering and other financial crimes. They do not grant gaming certifications to privately owned companies. 
 A company may comply with the provisions of GDPR; however, this does not mean they have a license from the E.U. to use the name. 
