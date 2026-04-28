@@ -87,7 +87,6 @@ This is abuse of a trusted community role, it may be coordinated or compromised
 
 The Terms of Service identifies the operator as "Long Island N.V.", Curaçao Company Number 157372. The Licenses & Security page identifies the operator as "TechSolutions Group N.V.", registration number 144920, with payment agent "TechSolutions (CY) Group Limited" (Cyprus, HE 377018).
 A legitimate operator has one legal identity. Two different company names and registration numbers in the same site's own legal disclosures means at least one is fabricated. Both are subject to verification against the Curaçao Chamber of Commerce in Phase 2.
-Evidence: licencesecurity.png, soawin-homepage-source.html
 
 **Evidence**: [licencesecurity.png](licencesecurity.png) , [soawin-homepage-source.html](../02-infrastructure/raw-output/soawin-homepage-source.html)
 
@@ -100,3 +99,11 @@ GDPR is a European data protection regulation, not a license or certification. A
 Listing these as credentials is regulatory cosplay — designed to look authoritative to a casual reader who recognizes the acronyms but not their function.
 
 **Evidence**: [licencesecurity2.png](licencesecurity2.png) , [licencesecurity3.png](licencesecurity3.png)
+
+## Red Flag #15: Domain age contradicts "since 2017" service claim
+
+The site's HTML meta description says: "Soawin is a blockchain-based crypto casino with transparent smart contracts, secure bets, and has been in service since 2017."
+WHOIS records show that soawin.com was registered on 2026-04-17, which is 8 days before this investigation. The "in service since 2017" claim is therefore demonstrably false, the domain itself did not exist before April 17, 2026.
+Additional WHOIS findings reinforce the deception: the domain is registered for only 1 year (2026-04-17 to 2027-04-17), through a registrar (Fewmoretaps OU / Trustname.com) frequently associated with low-friction scam operations, with the operator hidden behind a WHOIS privacy proxy. A legitimate established casino would have a multi-year domain registration and identifiable corporate ownership in WHOIS.
+
+**Evidence**: [soawin-homepage-source.html](soawin-homepage-source.html) (the "since 2017" claim is preserved in the meta description block)
